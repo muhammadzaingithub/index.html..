@@ -1,0 +1,46 @@
+/* Risponsive Start  */
+
+@media only screen and (max-width: 768px) {
+    .nav{
+      display: none;
+    }
+      .main .img-one{
+      display: none;
+    }
+    .contaner-one{
+      flex-direction: column;
+    }
+    .contaner-two{
+      flex-direction: column;
+    }
+    .contaner-four{
+      flex-direction: column;
+    }
+    .container-text{
+      width: 100%;
+    }
+    .container-text-two{
+      width: 100%;
+    }
+    }
+    @media only screen and (max-width: 425px){
+      .main{
+        justify-content: center;
+      }
+      .cnt h1{
+        font-size: 40px;
+    }
+    .cnt p{
+        font-size: 12px;
+    }
+    .btn button{
+      padding: 10px 20px;
+      justify-content: center;
+        }
+      .img-two{
+        display: none;
+      }
+      .cnt{
+        width: 100%;
+      }
+    }
